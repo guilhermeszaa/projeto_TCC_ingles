@@ -27,7 +27,7 @@ function somar(a: number, b: number): number {
 ```
 
 # CSS
-** ROOT **
+**ROOT**
 ```
 :root {
   --color-title: #000000;
