@@ -5,23 +5,40 @@
 
 # JavaScript
 ```
-// Ruim
-let d = new Date();
+# Style Guide - Sete Maravilhas do Mundo Antigo
 
-// Bom
-let dataAtual = new Date();
+##Tecnologias
+* HTML
+* CSS puro
 
-const nome = "Carlos";
-let idade = 25;
+##Bootstrap
+Será utilizado o bootstrap para:
+* Layout
+* Grid
+* Botões
+* Resposividade
 
-document.querySelector(".btn").addEventListener("click", enviarFormulario);
+##CSS
+Será utilizado o CSS para:
+* Cores
+* Estlização
+* Ajustes visuais
 
-function formatarPreco(valor){
-  return `R$ ${valor.toFixed(2)}`;
-}
+###Nomes de classes
+Nomes em inglês e descritivos
+Exemplo: .navbar, .gallery, .card, .title
 
-const lista = document.querySelector("#lista");
-lista.innerHTML += "<li>Item</li>";
+###Padrão CSS
+Utilizar padrão BEM (Block Element Modifier)
+Exemplo:
+.card
+.card__image
+
+###Cores
+Utilizar hexadecimal (#)
+
+
+
 ```
 # TypeScript
 ```
@@ -42,16 +59,19 @@ function somar(a: number, b: number): number {
 ```
 
 # CSS
+** ROOT
 ```
-.btn {
-  background: blue;
-}
-
-.button {
-  padding: 10px;
-  border-radius: 5px;
+##Root
+:root {
+  --color-title: #000000;
+  --color-text: #F2F2F2;
+  --color-navbar: #993030;
+  --color-background: #D9C6BA;
 }
 ```
 
+```
+
+```
 ---
 
