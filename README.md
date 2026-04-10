@@ -1,5 +1,5 @@
 # Style Guide - TCC
-## (TypeScript; JavaScript; HTML; CSS)
+## (TypeScript; JavaScript; HTML; CSS; SQL; MD)
 
 ---
 
@@ -10,20 +10,12 @@
 ```
 # TypeScript
 ```
-function somar(a: number, b: number): number {
-  return a + b;
-}
+
 ```
 
 # HTML
 ```
-<button class="btn">Enviar</button>
 
-<header></header>
-<nav></nav>
-<main></main>
-<section></section>
-<footer></footer>
 ```
 
 # CSS
@@ -34,6 +26,8 @@ function somar(a: number, b: number): number {
   --color-text: #F2F2F2;
   --color-navbar: #993030;
   --color-background: #D9C6BA;
+  --color-button: #993030;
+  --color-background-div: #F2F2F2; 
 }
 ```
 
