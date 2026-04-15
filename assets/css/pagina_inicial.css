@@ -1,5 +1,14 @@
+:root {
+    --cor-seis: #5e1010;
+    --cor-cinco: #993030;
+    --cor-quatro: #F2F2F2;
+    --cor-tres: #D9C6BA;
+    --cor-dois: #A6968D;
+    --cor-um: #BF9393;
+}
+
 body {
-    background-color: #D9C6BA;
+    background-color: var(--cor-tres);
 }
 
 #search {
@@ -10,21 +19,30 @@ body {
 
 #enviar {
     border-radius: 35px;
-    background-color: #993030;
+    background-color: var(--cor-cinco);
     width: 6%;
     height: 5%;
     color: white;
+    
 }
 
-#botao_login {
+#botao-login {
     position: absolute;
     right: 0;
     margin-right: 100px;
     border-radius: 35px;
-    background-color: #993030;
-    color: white;
+    background-color: var(--cor-cinco);
+    border: var(--cor-cinco) 2px solid;
+    color: var(--cor-quatro);
     width: 10%;
     height: 4%;
+    transition: all 0.5s;
+}
+
+#botao-login:hover {
+    transition: all 0.5s;
+    background-color: var(--cor-seis);
+    border: var(--cor-seis) 2px solid;
 }
 
 h1 {
@@ -37,23 +55,20 @@ h3 {
     font-size: 120%;
 }
 
-.head {
-    display: flex;
-    gap: 3.5%;
+.bottom {
+    width: 60%;
 }
 
-.caixa-1 {
-    width: 400%;
-    height: 300%;
-    background: white;
-    margin: 10px;
-    border-radius: 3%;
+.left {
+    height: 100vh;
+    width: 50%;
+
 }
 
-.caixa-2 {
-    width: 200%;
-    height: 300%;
-    background: white;
-    margin: 10px;
-    border-radius: 3%;
+.right {
+    height: 100vh;
+    width: 50%;
 }
+
+
+
