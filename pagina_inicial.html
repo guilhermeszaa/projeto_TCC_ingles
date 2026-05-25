@@ -12,59 +12,87 @@
 
 <body>
 
-    <section class="d-flex flex-row">
-        <div class="left p-5 d-flex flex-column align-items-start justify-content-start justify-content-start">
-            <div class="logo w-50 h-25 d-flex justify-content-start align-items-center"><img
-                    src="./assets/images/logo.png" class="logo w-25"></div>
-            <div class="introducao bottom h-75 d-flex flex-column align-items-center justify-content-center">
-                <h1>
+    <section class="d-flex flex-column flex-md-row">
+        <div class="left col-md-6 p-5 d-flex flex-column justify-content-between">
+            <div class="logo w-100 d-flex justify-content-start align-items-center">
+                <img src="./assets/images/logo.png" class="img-fluid w-25" alt="Logo">
+            </div>
+            
+            <div class="introducao my-auto">
+                <h1 class="mb-4">
                     Estude inglês e tenha acesso à diversos materiais e recursos!
                 </h1>
-
                 <h3>
                     What is Lorem Ipsum?
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    Why do we use it?
+                    and scrambled it to make a type specimen book.
                 </h3>
             </div>
         </div>
 
-        <div class="right">
-            <div class="top w-100 h-25 d-flex align-items-start justify-content-center p-5">
-                <button class="login btn d-flex align-items-center justify-content-center">Login</button>
+
+        <div class="right col-md-6 d-flex flex-column justify-content-between p-5">
+            <div class="w-100 d-flex align-items-start justify-content-end">
+                <a href="home.html" class="btn btn-success btn-custom" role="button">Login</a>
             </div>
-            <div class="bottom w-100 h-75 d-flex align-items-center justify-content-end p-5">
-                <img src="./assets/images/foto pessoa.png" id="person">
+            <div class="w-100 d-flex align-items-center justify-content-center mt-4">
+                <img src="./assets/images/foto pessoa.png" id="person" alt="Pessoa">
             </div>
         </div>
     </section>
 
-    <section>
 
-        <div class="mensagem d-flex justify-content-start">
-            <label class="d-flex flex-column ">Deixe seu comentário!</label>
-            <input type="text" id="texto">
-            <input type="submit" class="">
+    <section class="container-fluid px-5 pb-5">
+
+        <div class="row mt-5 mb-5">
+            <div class="col-12 ps-4">
+                <label class="label-mensagem d-block mb-2">Deixe seu comentário!</label>
+                <div class="d-flex gap-3">
+                    <input type="text" id="texto-msg" placeholder="Digite aqui...">
+                    <input type="submit" id="botao" value="Enviar">
+                </div>
+            </div>
         </div>
+
         
+        <h1 id="titulo-welcome" class="ps-4 mb-4">Welcome!!!</h1>
+
+        <div class="row align-items-start px-4">
+            
+            <div class="col-lg-6 mb-4">
+                <div class="popo-texto">
+                    <h3>What is Lorem Ipsum?
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                        <br><br>
+                        Why do we use it?
+                        It is a long established fact that a reader will be distracted by the readable content of a page when
+                        looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+                        of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                    </h3>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+
+                <div class="ratio ratio-16x9 shadow-sm rounded">
+                    <iframe src="https://www.youtube.com/embed/psZFxhrt0ak?si=41gcx7EJVIjDwBYT" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
 
         </div>
-
     </section>
-
-
-
-
-
-
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
