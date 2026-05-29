@@ -1,0 +1,14 @@
+.usuario{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 90%;
+}
+
+#nome-user{
+    width: 150%;
+    margin-top:2%;
+    margin-left: 1%;
+    margin-right: 15%;
+}
