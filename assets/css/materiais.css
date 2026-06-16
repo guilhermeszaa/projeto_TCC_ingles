@@ -1,0 +1,23 @@
+.msg{
+    position: absolute;
+    top: 120px;
+    right: 5%;
+}
+
+@media (max-width: 768px){
+
+    .msg{
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .msg .d-flex{
+        flex-direction: column;
+    }
+
+    #texto-msg,
+    #botao{
+        width: 100%;
+    }
+}
