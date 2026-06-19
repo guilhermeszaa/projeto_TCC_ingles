@@ -1,0 +1,7 @@
+.cad-aluno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
