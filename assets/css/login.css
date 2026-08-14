@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.container {
+    width: 20%;
+    background-color: var(--cor-quatro);
+    padding: 20px;
+    border-radius: 16px;
+    margin: 0;
+}
